@@ -19,17 +19,25 @@ const App = () => {
       <Table />
       <Flex sx={{ gap: "10px" }}>
         <Typography variant="p">Built by Bhargava Prabu Reddy</Typography>
-        <a target="_blank" href="https://www.linkedin.com/in/prabureddy/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/prabureddy/"
+          rel="noreferrer"
+        >
           <abbr title="LinkedIn">
             <LinkedInIcon />
           </abbr>
         </a>
-        <a target="_blank" href="https://github.com/prabureddy/">
+        <a
+          target="_blank"
+          href="https://github.com/prabureddy/"
+          rel="noreferrer"
+        >
           <abbr title="Github">
             <GitHubIcon />
           </abbr>
         </a>
-        <a target="_blank" href="https://prabureddy.com">
+        <a target="_blank" href="https://prabureddy.com" rel="noreferrer">
           <abbr title="Portfolio - Personal Website">
             <PersonIcon />
           </abbr>
