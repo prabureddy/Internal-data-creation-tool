@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Typography from "@mui/material/Typography";
+import Table from "./Table";
+import Flex from "./component/Flex";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Flex
+      sx={{
+        flexDirection: "column",
+        gap: "40px",
+        width: "100%",
+        alignItems: "center",
+      }}
+    >
+      <Typography variant="h5">Internal Data Creation Tool</Typography>
+      <Table />
+      <Typography variant="p">Built by Bhargava Prabu Reddy</Typography>
+    </Flex>
   );
-}
+};
 
 export default App;
